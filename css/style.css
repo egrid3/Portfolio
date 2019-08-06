@@ -4,3 +4,27 @@
 #navBack {
   background: linear-gradient(to bottom right, darkslategray, darkcyan);
 }
+body {
+  background:#cccbc6;
+}
+h2#pg1 {
+  color: blue;
+  text-align: center;
+}
+h4#pg1 {
+  text-align: center;
+  color: #d1d4c4;
+  margin-top: 4px;
+}
+div#pg1{
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+header {
+  background-image: url("../img/comp-wrk.jpg");
+  background-color: #f6fedf;
+  background-position: center;
+  background-size: cover;
+  block-size: 400px;
+  margin-top:36px;
+}
