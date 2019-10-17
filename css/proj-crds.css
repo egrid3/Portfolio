@@ -1,0 +1,34 @@
+body {
+  margin: 2;
+  padding: 0;
+}
+
+/*
+.container {
+  height: 100%;
+  width: 100%;
+}
+*/
+.cards {
+  text-align: center;
+  background: lightslategray;
+  border: 3px lightblue solid;
+  margin: 8px;
+  padding: 4px;
+  display: inline-block;
+  justify-content: center;  
+  /*
+  height: 100%;
+  width: 100%;
+  */
+}
+.card-container {
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  margin-top: 6px;
+  margin-bottom: 4px;
+  padding: 3px;
+}

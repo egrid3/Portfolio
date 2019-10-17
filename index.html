@@ -4,84 +4,174 @@
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio Framework (initial test)</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark py-3" id="navBack">
-      <div class="container" id="navHeader">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img style="display:inline; margin:0 2px;" alt="BtSp" src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="23" height="23">
-            Elvin Ridley
-          </a>
-        </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto nav-pills nav-justified">
-            <li class="navbar-item active py-lg-2"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
-            <li class="navbar-item py-lg-2"><a class="nav-link" href="#about">About</a></li>
-            <li class="navbar-item py-lg-2"><a class="nav-link" href="#projects">Projects</a></li><br>
-            <li class="navbar-item py-lg-2"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+	<nav class="navbar navbar-expand-md bg-secondary navbar-dark fixed-top bg-dark py-3" id="navBack">
+    <div class="container" id="navHeader">
+      <div class="navbar-header">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">
+          <img style="display:inline; margin:0 2px;" alt="BtSp" src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="23" height="23">
+          Elvin Ridley
+        </a>
       </div>
-		</nav>
-<br><br>
-<header>
-	<div class="container" id="pg1">
-		<h2>[[First page with Background Image]]</h2>
-  	<br>
-  	<h2 id="pg1">Under Construction</h2>
-  	<h4 id="pg1">The start of a framework for my developer portfolio!</h4>
-    <br><br>
-    <div class="d-flex text-white">
-      <div class="p-2 flex-fill bg-primary text-center">Flex item</div>
-      <div class="p-2 flex-fill bg-success text-right">Flex item</div>
-      <div class="p-2 flex-fill bg-warning" style="color:blue">Flex item</div>
-    </div><br><br>
-  </div>
-</header>
-<br><br><br><br>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto nav-pills nav-justified">
+          <li class="navbar-item active py-lg-2"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+          <li class="navbar-item py-lg-2"><a class="nav-link" href="#about">About</a></li>
+					<li class="navbar-item py-lg-2"><a class="nav-link" href="#projects">Projects</a></li>
+					<li class="navbar-item py-lg-2"><a class="nav-link" href="#other">Other Stuff</a></li>
+          <li class="navbar-item py-lg-2"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+	</nav>
+  <br>
+  <main role="main">
+  	<div class="jumbotron" id="pg1">
+			<div class="container">
+  		  <h2 id="pg1">[[First page Splash/Intro]]</h2>
+    	  <br>
+    	  <h2 id="pg1">Under Construction</h2>
+    	  <h4 id="pg1">The start of a framework for my developer portfolio!</h4>
+        <br><br>
+        <div class="d-flex text-white">
+          <div class="p-2 flex-fill bg-primary text-center">Flex item</div>
+          <div class="p-2 flex-fill bg-success text-right">Flex item</div>
+          <div class="p-2 flex-fill bg-warning" style="color:blue">Flex item</div>
+			  </div><br><br>
+			</div>
+		</div><br>
+  	<div class="container" id="about">
+  	  <h1>About</h1>
+  	  <p class="lead">Experienced in technical support installing, troubleshooting, and maintaining computer and electronic systems. Continually working on basic software/web development projects. Unique skill for problem solving in various situations, but with a focus on technology. Able to work with various people, and to handle several issues at once. Enthusiastic to use my creativity and troubleshooting skills in a team environment to serve the customer as well as society.</p>
+  	  <p style="text-align:right"><a class="btn btn-info btn-md" href="#contact">Contact Me</a></p>
+  	</div>
+  	<br><br>
+  	<div class="divider-custom">
+  		<div class="divider-custom-line"></div>
+  	</div><br><br>
+  	<div class="container" id="projects">
+			<h1>Projects</h1>
+			<div class="bd-example bd-example-tabs" id="bd-proj">
+			  <nav>
+			  	<div class="nav nav-tabs" id="nav-tab" role="tablist">
+			  		<a class="nav-item nav-link active" id="nav-cards1-tab" data-toggle="tab" href="#nav-cards1" role="tab" aria-controls="nav-cards1" aria-selected="true">App Projects</a>
+			  		<a class="nav-item nav-link" id="nav-cards2-tab" data-toggle="tab" href="#nav-cards2" role="tab" aria-controls="nav-cards2" aria-selected="false">Code Examples/Mini Apps</a>
+			  		<a class="nav-item nav-link" id="nav-cards3-tab" data-toggle="tab" href="#nav-cards3" role="tab" aria-controls="nav-cards3" aria-selected="false">Demo Pages</a>
+			  	</div>
+			  </nav>
+			  <div class="tab-content" id="nav-tabContent">
+			  	<div class="tab-pane fade show active" id="nav-cards1" role="tabpanel" aria-labelledby="nav-cards1-tab">
+						<h3>App Projects Cards</h3><br>
+						<div class="crd-cont">
+							<div class="cards">
+								<img src="img/meantodoapp-scrn2.png" alt="image1">
+								<div class="overlay overlayFade">
+									<div class="text"><p>[ Some text overlay 1 ]</p></div>
+								</div>
+							</div>
+							<div class="cards">
+								<img src="img/meantodoapp-scrn.png" alt="image2">
+								<div class="overlay overlayFade">
+									<div class="text"><p>[ Some text overlay 2 ]</p></div>
+								</div>
+							</div>
+							<div class="cards">
+								<img src="img/meantodoapp-scrn.png" alt="image3">
+								<div class="overlay overlayFade">
+									<div class="text"><p>[ Some text overlay 3 ]</p></div>
+								</div>
+							</div>
+						</div>
+			  	</div>
+			  	<div class="tab-pane fade" id="nav-cards2" role="tabpanel" aria-labelledby="nav-cards2-tab">
+						<h3>Code Examples/Mini Apps Cards</h3><br>
+						<div class="crd-cont">
+							<div class="cards">
+								<img src="https://www.tutorialmines.net/wp-content/uploads/2017/03/demo-300.png" alt="image1">
+								<div class="overlay overlayFade">
+									<div class="text"><p>[ Some text overlay 1 ]</p></div>
+								</div>
+							</div>
+							<div class="cards">
+								<img src="https://www.tutorialmines.net/wp-content/uploads/2017/03/demo-300.png" alt="image2">
+								<div class="overlay overlayFade">
+									<div class="text"><p>[ Some text overlay 2 ]</p></div>
+								</div>
+							</div>
+						</div>
+			  	</div>
+			  	<div class="tab-pane fade" id="nav-cards3" role="tabpanel" aria-labelledby="nav-cards3-tab">
+						<h3>Demo Pages Cards</h3><br>
+						<div class="crd-cont">
+							<div class="cards">
+								<img src="img/meantodoapp-scrn.png" alt="image1">
+								<div class="overlay overlayFade">
+									<div class="text"><p>[ Some text overlay 1 ]</p></div>
+								</div>
+							</div>
+							<div class="cards">
+								<img src="img/meantodoapp-scrn.png" alt="image2">
+								<div class="overlay overlayFade">
+									<div class="text"><p>[ Some text overlay 2 ]</p></div>
+								</div>
+							</div>
+							<div class="cards">
+								<img src="img/meantodoapp-scrn.png" alt="image3">
+								<div class="overlay overlayFade">
+									<div class="text"><p>[ Some text overlay 3 ]</p></div>
+								</div>
+							</div>
+						</div>
+			  	</div>
+			  </div>
+		  </div>
+		</div>
+		<br><br>
+  	<div class="divider-custom">
+			<div class="divider-custom-line"></div>
+		</div><br><br>
+		<div class="container" id="other">
+  		<h1>Other Stuff</h1>
+  		<p>Procuratori sua pieno io degli alcun. Noi sono esperienza alcun ora, eterni ma di liberalita piú delle cose il manifestamente. Magna eirmod duo accusam et rebum dolor, ea et dolore et rebum, eterni ma di liberalita.</p><br><br>
+  	<br><p style="color:midnightblue; text-align: center; font-size: 2.5em; font-weight: bold">To delete or not to delete?...</p><br>
+	  </div>
+	  <div class="divider-custom">
+  		<div class="divider-custom-line"></div>
+		</div><br>
+		<div class="container" id="contact">	
+  		<h1>Contact Me</h1>
+  		<p>Dolore lorem diam voluptua invidunt sed sanctus.</p><br><br>
+		</div>
 		<div class="container">
-		<h1>Multipurpose Bootstrap Theme</h1>
-		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content</p>
-		<p><a class="btn btn-primary btn-lg" href="about.html">Read More</a> <a class="btn btn-default btn-lg" href="contact.html">Contact Us</a></p>
-		</div>
-	</div>
-  <br><br><br><br><br>
-	<div class="container" id="about">
-		<div class="row" style="margin:5px">
-			<div class="col-md-4 box">
-				<div class="well">
-					<i><h3 style="color:lightslategrey">Mobile App Development</h3></i>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero diam, molestie non viverra eget, aliquet et odio. Vestibulum quis molestie neque.</p>
-					<span style="color:darkslategrey" class="glyphicon glyphicon-phone"></span>
+		  <form action="send" method="post">
+				<div class="name-email">
+  	  		<input placeholder="Name" name="name" type="text" class="form-name">
+					<input placeholder="Email" name="email" type="email" class="form-email">
 				</div>
-			</div>
-
-			<div class="col-md-4 box">
-				<div class="well">
-					<span style="color:lightseagreen" class="glyphicon glyphicon-film"></span>
-					<h3>Media Production</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero diam, molestie non viverra eget, aliquet et odio. Vestibulum quis molestie neque.</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 box">
-				<div class="well">
-					<h3 style="color:green">Internet Marketing</h3>
-					<span class="glyphicon glyphicon-search"></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero diam, molestie non viverra eget, aliquet et odio. Vestibulum quis molestie neque.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-  <br><br><br><br>
+				<div class="submit-msg">
+  	  		<textarea placeholder="Type message here" name="message" class="form-text"></textarea>
+				  <p style="text-align:center"><a class="submit btn btn-info btn-md" id="button" href="#">Send</a></p>
+	  		  <div class="msg_success"><p>Your message has been sent. Thank you!</p></div>
+				  <div class="msg_error"><p>Sorry your message can not be sent.</p></div>
+			  </div>
+	  	</form>
+	  </div><br>
+		<div class="divider-custom">
+  		<div class="divider-custom-line"></div>
+  	</div><br>
+	</main>
+	<footer class="container">
+		<p>&copy; Copyright goes here</p>
+	</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
